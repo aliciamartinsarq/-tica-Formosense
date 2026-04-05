@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #45ABAE;
+  --color-primary-dark: #2F8C8F;
+  --color-primary-light: #6FC4C6;
+  --color-primary-lighter: #A8E1E3;
+  
+  --color-neutral-white: #FFFFFF;
+  --color-neutral-light: #F4F8F9;
+  --color-neutral-medium: #D9E3E6;
+  --color-neutral-dark: #2E2E2E;
+  
+  --color-cta: #25D366;
+  --color-cta-hover: #1EBE5D;
+  
+  --color-highlight: #F2C94C;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
